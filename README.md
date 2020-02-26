@@ -3,7 +3,7 @@ TensorFlow Lite running at 24 FPS on bare Raspberry Pi 4 with Ubuntu
 
 A fast C++ implementation of TensorFlow Lite on a bare Raspberry Pi 4.
 The Raspberry Pi 64 bits version of Ubuntu is used as operating system.
-Once overclocked to 1925 MHz, the app runs a whooping 24 FPS!
+Once overclocked to 1925 MHz, the app runs a whopping 24 FPS!
 Without any hardware accelerator, just you and your Pi.
 
 https://arxiv.org/abs/1611.10012 <br/>
