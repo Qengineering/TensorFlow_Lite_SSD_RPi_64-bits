@@ -36,12 +36,19 @@
 			<Add directory="/home/ubuntu/tensorflow" />
 			<Add directory="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include" />
 			<Add directory="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/downloads/absl" />
+			<Add directory="/home/pi/tensorflow" />
+			<Add directory="/home/pi/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/include" />
+			<Add directory="/home/pi/tensorflow/tensorflow/lite/tools/make/downloads/absl" />
 		</Compiler>
 		<Linker>
 			<Add option="`pkg-config --libs --cflags opencv4`" />
 			<Add option="-pthread" />
-			<Add library="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/gen/linux_aarch64/lib/libtensorflow-lite.a" />
-			<Add library="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/build/libflatbuffers.a" />
+			<Add library="libtensorflow-lite.a" />
+			<Add library="libflatbuffers.a" />
+			<Add directory="/home/pi/tensorflow/tensorflow/lite/tools/make/gen/linux_aarch64/lib" />
+			<Add directory="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/gen/linux_aarch64/lib" />
+			<Add directory="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/build" />
+			<Add directory="/home/pi/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/build" />
 		</Linker>
 		<Unit filename="MobileNetV1.cpp" />
 		<Extensions>
