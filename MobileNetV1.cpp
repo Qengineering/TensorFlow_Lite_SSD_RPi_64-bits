@@ -92,7 +92,6 @@ int main(int argc,char ** argv)
     int i, Fcnt=0;
     Mat frame;
     chrono::steady_clock::time_point Tbegin, Tend;
-    chrono::steady_clock::time_point Tstart, Tstop;
 
     for(i=0;i<16;i++) FPS[i]=0.0;
 
@@ -120,8 +119,7 @@ int main(int argc,char ** argv)
     }
 
     cout << "Start grabbing, press ESC on Live window to terminate" << endl;
-    Tstart = chrono::steady_clock::now();
-    while(1){
+	while(1){
 //        frame=imread("Traffic.jpg");  //need to refresh frame before dnn class detection
         cap >> frame;
         if (frame.empty()) {
@@ -147,10 +145,6 @@ int main(int argc,char ** argv)
         char esc = waitKey(5);
         if(esc == 27) break;
     }
-    Tstop = chrono::steady_clock::now();
-    //calculate frame rate
-    f = chrono::duration_cast <chrono::milliseconds> (Tstop - Tstart).count();
-    cout << "Time : " << f/1000.0 << " sec" << endl;
 
   cout << "Closing the camera" << endl;
   destroyAllWindows();
