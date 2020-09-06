@@ -45,13 +45,11 @@
 			<Add option="-pthread" />
 			<Add library="libtensorflow-lite.a" />
 			<Add library="libflatbuffers.a" />
-			<Add library="libdl.so" />
+			<Add library="/lib/aarch64-linux-gnu/libdl.so.2" />
 			<Add directory="/home/pi/tensorflow/tensorflow/lite/tools/make/gen/linux_aarch64/lib" />
 			<Add directory="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/gen/linux_aarch64/lib" />
 			<Add directory="/home/ubuntu/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/build" />
 			<Add directory="/home/pi/tensorflow/tensorflow/lite/tools/make/downloads/flatbuffers/build" />
-			<Add directory="/lib/aarch64-linux-gnu" />
-			<Add directory="/lib/arm-linux-gnueabihf" />
 		</Linker>
 		<Unit filename="MobileNetV1.cpp" />
 		<Extensions>
