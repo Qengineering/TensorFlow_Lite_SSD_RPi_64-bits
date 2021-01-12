@@ -1,10 +1,9 @@
 # TensorFlow_Lite_SSD_RPi_64-bits
-![output image]( https://qengineering.eu/images/James_24.jpg )
-##TensorFlow Lite SSD running at 24 FPS on a bare Raspberry Pi 4 64-OS <br/>
+![output image]( https://qengineering.eu/images/James_24.jpg )<br/>
+## TensorFlow Lite SSD running at 24 FPS on a bare Raspberry Pi 4 64-OS <br/>
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
 
-A fast C++ implementation of TensorFlow Lite on a bare Raspberry Pi 4.
-The Raspberry Pi 64 bits is used as operating system.
+A fast C++ implementation of TensorFlow Lite on a bare Raspberry Pi 4 64-bit OS.
 Once overclocked to 1925 MHz, the app runs a whopping 24 FPS!
 Without any hardware accelerator, just you and your Pi.
 
@@ -32,7 +31,7 @@ TestTensorFlow_Lite.cpb <br/>
 MobileNetV1.cpp<br/>
  <br/>
 Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
-I fact you can run this example on any aarch64 Linux system. <br/>
+I fact you can run this example on any aarch64 Linux system. <br/><br/>
 See the movie at: https://vimeo.com/393889226
 
 
