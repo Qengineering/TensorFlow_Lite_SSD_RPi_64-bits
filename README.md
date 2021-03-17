@@ -1,3 +1,4 @@
+![output image](https://qengineering.eu/images/SDcard16GB_tiny.jpg) Find this example on our [SD-image](https://github.com/Qengineering/RPi-image)
 # TensorFlow_Lite_SSD_RPi_64-bits
 ![output image]( https://qengineering.eu/images/James_24.jpg )<br/>
 ## TensorFlow Lite SSD running at 24 FPS on a bare Raspberry Pi 4 64-OS <br/>
