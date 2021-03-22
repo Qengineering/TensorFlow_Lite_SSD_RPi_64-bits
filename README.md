@@ -19,7 +19,7 @@ Special made for a Raspberry Pi 4 see [Q-engineering deep learning examples](htt
 To extract and run the network in Code::Blocks <br/>
 $ mkdir *MyDir* <br/>
 $ cd *MyDir* <br/>
-$ wget https://github.com/Qengineering/TensorFlow_Lite_SSD_RPi_64-bits/archive/master.zip <br/>
+$ wget https://github.com/Qengineering/TensorFlow_Lite_SSD_RPi_64-bits/archive/refs/heads/master.zip <br/>
 $ unzip -j master.zip <br/>
 Remove master.zip and README.md as they are no longer needed. <br/> 
 $ rm master.zip <br/>
