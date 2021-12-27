@@ -31,8 +31,13 @@ detect.tflite <br/>
 TestTensorFlow_Lite.cpb <br/>
 MobileNetV1.cpp<br/>
  <br/>
-Run TestTensorFlow_Lite.cpb with Code::Blocks. Remember, you also need a working OpenCV 4 on your Raspberry. <br/>
+Run TestTensorFlow_Lite.cpb with Code::Blocks.  More info or<br/> 
+if you want to connect a camera to the app, follow the instructions at [Hands-On](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html#HandsOn).<br/>
 I fact you can run this example on any aarch64 Linux system. <br/><br/>
 See the movie at: https://vimeo.com/393889226
+
+------------
+
+[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
 
 
