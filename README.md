@@ -11,7 +11,7 @@ Without any hardware accelerator, just you and your Pi.
 https://arxiv.org/abs/1611.10012 <br/>
 Training set: COCO <br/>
 Size: 300x300 <br/>
-Frame rate V1 Lite : 24 FPS (RPi 4 @ 1925 MHz - 64 bits OS) <br/>
+Frame rate V1 Lite : 28 FPS (RPi 4 @ 1925 MHz - 64 bits Bullseye OS) <br/>
 Frame rate V1 Lite : 17 FPS (RPi 4 @ 2000 MHz - 32 bits OS) see [32-OS](https://github.com/Qengineering/TensorFlow_Lite_SSD_RPi_32-bits)<br/>
 <br/>
 Special made for a Raspberry Pi 4 see [Q-engineering deep learning examples](https://qengineering.eu/deep-learning-examples-on-raspberry-32-64-os.html) <br/>
